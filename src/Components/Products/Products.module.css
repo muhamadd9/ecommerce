@@ -1,0 +1,29 @@
+.items a{
+    text-decoration: none;
+    color: black;
+  }
+  
+    .itemImage{
+      overflow: hidden;
+    }
+    .itemImage img{
+      width: 100%;
+    }
+    .items button {
+      opacity: 0;
+      transform: translateY(100%);
+      transition: 0.6s;
+    }
+    .items:hover button{
+      opacity: 100;
+      transform: translateY(0);
+    }
+    .items{
+
+      border: solid 1px transparent;
+    }
+    .items:hover{
+      box-shadow: var(--shadow);
+      border: solid 1px var(--main-color);
+    }
+  
