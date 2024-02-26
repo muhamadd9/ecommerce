@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/E-commerce/static/css/main.76f8a798.css",
+    "main.js": "/E-commerce/static/js/main.8803b76e.js",
+    "static/media/light-patten.svg": "/E-commerce/static/media/light-patten.ed706aff39a009de4e8001ed31f5a17c.svg",
+    "static/media/fa-solid-900.ttf": "/E-commerce/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/slider-image-1.jpeg": "/E-commerce/static/media/slider-image-1.3c3940ee0f1c3b17ff9a.jpeg",
+    "static/media/fa-brands-400.ttf": "/E-commerce/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/slider-image-3.jpeg": "/E-commerce/static/media/slider-image-3.7e5c9f7a513f6db6dd5e.jpeg",
+    "static/media/slider-image-2.jpeg": "/E-commerce/static/media/slider-image-2.e510b0de8a4d96a1d5ad.jpeg",
+    "static/media/fa-solid-900.woff2": "/E-commerce/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/E-commerce/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/error.svg": "/E-commerce/static/media/error.084f5f5b0eb10d3216cb7c939108e1f6.svg",
+    "static/media/fa-regular-400.ttf": "/E-commerce/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/E-commerce/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/pay.png": "/E-commerce/static/media/pay.47ad3e696f50516da1b3.png",
+    "static/media/freshcart-logo.svg": "/E-commerce/static/media/freshcart-logo.f672b50f3fb77639f6a21847d1a09f18.svg",
+    "static/media/fa-v4compatibility.ttf": "/E-commerce/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/E-commerce/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/slick.svg": "/E-commerce/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/E-commerce/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/E-commerce/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/E-commerce/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/E-commerce/index.html",
+    "main.76f8a798.css.map": "/E-commerce/static/css/main.76f8a798.css.map",
+    "main.8803b76e.js.map": "/E-commerce/static/js/main.8803b76e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76f8a798.css",
+    "static/js/main.8803b76e.js"
+  ]
+}
