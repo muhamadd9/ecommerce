@@ -20,9 +20,7 @@ export default function AllOrders() {
       }
       else{
          setOrders(null);
-       }
-
-
+       } 
     } catch (error) {
       console.log(error);
     }

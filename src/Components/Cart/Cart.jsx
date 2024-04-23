@@ -102,7 +102,7 @@ async function updateProductQuantity(id,count){
         <button onClick={ ()=> updateProductQuantity(product.product.id , product.count - 1)} className='btn btn-outline-danger'>-</button>
       </div>
     </div>
-
+    
     ))}
 
 

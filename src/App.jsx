@@ -31,6 +31,7 @@ function App() {
       {path:'Products' , element:   <ProtectedRoutes> <Products/>  </ProtectedRoutes> },
       {path:'/checkout' , element:   <ProtectedRoutes> <CheckOut/> </ProtectedRoutes> },
       {path:'/allorders' , element:   <ProtectedRoutes> <AllOrders/> </ProtectedRoutes> },
+      {path:'/E-commerce' , element:   <ProtectedRoutes> <Home/> </ProtectedRoutes> },
       {path:'Cart' , element:   <ProtectedRoutes> <Cart />  </ProtectedRoutes> },
       {path:'Categories' , element:   <ProtectedRoutes> <Categories/>  </ProtectedRoutes> },
       {path:'subcategories' , element:   <ProtectedRoutes> <SubCategories/>  </ProtectedRoutes> },
