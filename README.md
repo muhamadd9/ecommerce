@@ -1,25 +1,34 @@
-# E-commerce Web Application
-This project is a significant milestone in my journey as a developer, and I'm proud of the result. Below is a quick overview of what I've achieved:
+# E-Commerce Website
 
-## Project Overview
-The project is an E-commerce web application built using React. It provides a seamless shopping experience for users, with features such as product browsing, cart management, and a secure checkout process.
+## About the Project
+This project is a comprehensive e-commerce platform designed to provide users with a seamless online shopping experience. The website includes features like user authentication, product browsing, shopping cart, and an admin panel for managing the store. The project was built with scalability and performance in mind, ensuring a fast and responsive user experience across all devices.
 
-## Key Features
-Product Catalog: Users can explore a wide range of products organized into categories.
-Cart Management: Adding, updating, and removing items from the cart is a breeze.
-User Authentication: Secure user registration and login functionalities.
-Checkout Process: A smooth and intuitive checkout flow for completing purchases.
-Subcategories: Users can navigate through subcategories to find specific products.
-Brands: Browse products by brand for a more personalized shopping experience.
-All Orders: View and manage all previous orders for easy tracking.
-Technologies Used : 
--HTML5
--CSS3
--Bootstrap v5.3
--React
-## How to Run
-Clone this repository to your local machine.
-Navigate to the project directory.
-Install dependencies using npm install.
-Start the development server using npm start.
-Open your browser and navigate to http://localhost:3000 to view the application.
+## Technologies
+The following technologies were used in the development of this project:
+
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap v5.3, React.js
+- **Backend**: Consumed a public API that provides all the project functionality [Here](https://documenter.getpostman.com/view/5709532/2s93JqTRWN#451d8e36-24b9-4526-b9bd-7e9d8dc35223)
+- **Authentication**: JSON Web Tokens (JWT)
+- **Version Control**: Git, GitHub
+
+## Features
+The platform includes a wide array of features:
+
+- **User Authentication**: Secure login and registration system.
+- **Product Browsing**: Browse products by categories with detailed product pages.
+- **Shopping Cart**: Add items to the cart, manage quantities, and proceed to checkout.
+- **Checkout**: Complete orders and comfirm the payment.
+- **Reviews & Ratings**: Customers can leave reviews and rate products.
+- **Responsive Design**: Fully responsive, ensuring optimal user experience on all devices.
+- **Order Tracking**: Users can track their orders post-purchase.
+- **Category Management**: Products are categorized for easy browsing.
+- **Registration Seystem**: Includes registration, secure login, password updates, and password reset functionality..
+
+## Setup
+follow the following steps to run the project.
+
+- Install Node.js from [Node.js](https://nodejs.org/en)
+- Clone this repo on your local machine.
+- Run these commands on the project directory respectively
+  - npm install
+  - npm start
