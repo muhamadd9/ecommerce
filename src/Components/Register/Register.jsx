@@ -25,6 +25,7 @@ export default function Register() {
     navigate('/login')
    }
   }
+  
   const validationSchema = Yup.object({          //Validation schema for YUP
     name: Yup.string().min(5,"name is short").max(20,"name is long").required("Name is required"),
       email:Yup.string().email("Email Not Valid").required("Email is Required"),

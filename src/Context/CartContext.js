@@ -8,7 +8,7 @@ export const CartContext = createContext();
 
 export default function CartProvider({children}){
     const endPoint = 'https://ecommerce.routemisr.com/api/v1/cart';
-    const {token} =useContext(TokenContext);
+    const {token} = useContext(TokenContext);
     const headers ={
         token: localStorage.getItem("userToken"),
     }
@@ -33,7 +33,6 @@ export default function CartProvider({children}){
             },{
                 headers,
             });
-            // console.log(data);
             setNumOfItems(data.numOfCartItems);
             console.log(numOfItems);
             return data; 

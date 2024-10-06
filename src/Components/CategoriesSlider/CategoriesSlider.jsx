@@ -14,7 +14,6 @@ export default function CategoriesSlider() {
   const [categories,setCategories] =useState([]) 
   async function getCategories(){
    let {data} =await axios.get(`https://ecommerce.routemisr.com/api/v1/categories`);
-  //  console.log(data.data);
    setCategories(data.data)
   }
 
@@ -22,7 +21,7 @@ export default function CategoriesSlider() {
     getCategories()
   },[])
   return <>
-    <div className="container my-5">
+    <div className="container py-5">
       <h3 className="fw-semibold">Show Popular Categories</h3>
       <Slider {...settings} responsive={[
         {
@@ -32,6 +31,7 @@ export default function CategoriesSlider() {
           slidesToScroll:2,
         }
         }
+        
       ]}>
       {categories?.map(cat => <div>
         <div className="item px-1">

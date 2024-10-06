@@ -9,7 +9,7 @@ import TokenContextProvider from './Context/Token';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 /* index.css */
-import '~@fortawesome/fontawesome-free/css/all.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

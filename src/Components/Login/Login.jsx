@@ -29,10 +29,9 @@ export default function Login() {
     navigate('/')
    }
   }
-  const validationSchema = Yup.object({          //Validation schema for YUP
+  const validationSchema = Yup.object({        
       email:Yup.string().email("Email Not Valid").required("Email is Required"),
       password:Yup.string().required('Password Rquired'),
-
   })
 
  const loginForm = useFormik({

@@ -28,7 +28,7 @@ export default function FeaturedProduct() {
     }
   } 
 
- let {isError , error , isLoading , isFetching , data} =  useQuery("FeaturedProducts", getProducts ,{
+ let {isError , error , isLoading , isFetching , data } =  useQuery("FeaturedProducts", getProducts ,{
   // cacheTime:2000
   // refetchInterval:1000
   // refetchOnMount: 
